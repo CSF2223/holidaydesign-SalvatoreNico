@@ -1,0 +1,40 @@
+/*
+Colors For christmas:
+Light Green #146B3A
+Green #165B33
+Yellow #F8B229
+White #fff
+red #F8B229
+*/
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+html{
+    font-family:Mountains of Christmas;
+    font-size:62.5%;
+}
+
+h1{
+    font-size:4rem;
+    text-align:center;
+    background-color:#F8B229;
+    border: 2.5rem solid #F8B229;
+    border-radius:2.5rem;
+}
+
+h3{
+   font-size:3rem;
+}
+
+p{
+    font-size:2rem;
+    
+}
+
+.christmasT{
+    border: 2.5rem solid #165b33;
+    background-color:#165b33;
+    border-radius:4rem;
+}
+.christmasT p{
+    color:#fff;
+}
