@@ -4,7 +4,9 @@ Light Green #146B3A
 Green #165B33
 Yellow #F8B229
 White #fff
-red #F8B229
+red #FF0000
+blue #0000FF
+grey #808080
 */
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
 
@@ -13,16 +15,22 @@ html{
     font-size:62.5%;
 }
 
+body{
+  background-color:#146b3a;
+}
+
 h1{
     font-size:4rem;
     text-align:center;
     background-color:#F8B229;
     border: 2.5rem solid #F8B229;
     border-radius:2.5rem;
+    box-shadow: 6px 6px 6px 0px #000;
 }
 
 h3{
    font-size:3rem;
+   display:inline;
 }
 
 p{
@@ -34,7 +42,51 @@ p{
     border: 2.5rem solid #165b33;
     background-color:#165b33;
     border-radius:4rem;
-}
-.christmasT p{
     color:#fff;
+    box-shadow: 6px 6px 6px 0px #000;
+    
+}
+
+.christmasH{
+    color:#fff;
+    border-radius:6rem;
+    border: 1.2rem solid #FF0000;
+    background-color:#FF0000;
+    box-shadow: 6px 6px 6px 0px #000;
+    margin-top:3;
+    padding-top: 25px;
+}
+
+.hanukkahT{
+    border: 2.5rem solid #808080;
+    background-color:#808080;
+    border-radius:4rem;
+    color:#F8B229;
+    box-shadow: 6px 6px 6px 0px #000;
+    
+}
+
+.hanukkahH{
+    color:#F8B229;
+    border-radius:6rem;
+    border: 1.2rem solid #0000FF;
+    background-color:#0000FF;
+    box-shadow: 6px 6px 6px 0px #000;
+}
+
+.chineseNYT{
+    border: 2.5rem solid #FF0000;
+    background-color:#FF0000;
+    border-radius:4rem;
+    color:#fff;
+    box-shadow: 6px 6px 6px 0px #000;
+    
+}
+
+.chineseNYH{
+    color:#fff;
+    border-radius:6rem;
+    border: 1.2rem solid #0000FF;
+    background-color:#0000FF;
+    box-shadow: 6px 6px 6px 0px #000;
 }
